@@ -11,11 +11,12 @@
 
 
 <br><br>
-<img src="https://raw.githubusercontent.com/sixcious/assets/main/repository/infy-scroll/infy.png" width="365" height="600" alt="Infy" title="Infy" align="left">
+<img src="https://raw.githubusercontent.com/sixcious/assets/main/repository/infy-scroll/infy.png" width="540" height="600" alt="Infy" title="Infy">
+<br><br>
 
 ### Important Note
 Infy contains some experimental ideas and features. This means it might contain a few bugs and it might not work on every website you try it on! But I really want you to be 100% happy with Infy, so if something isn't working right, or if there's a feature you think is missing, please open an issue on GitHub and give me a chance to fix it before leaving a low rating/review, and I promise I will.
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br>
 
 ## About
 Infy Scroll can let you add customized infinite scrolling to websites and can auto-load the next page. It's also compatible with the AutoPagerize Database, which means it supports thousands of websites automatically. Infy supports 4 different actions and 6 different append modes so you can customize each site's infinite scrolling to how you want it to be. Infy understands both CSS Selector and XPath expressions for finding next links, and it features an Element Picker that can generate them for you, similar to the original AutoPager. It can also increment URLs and perform special actions, like clicking "Load More" buttons. You can save your settings for each URL and Infy will auto-activate the next time you visit them.
@@ -77,7 +78,7 @@ I really wish I could! Please see [this post](https://github.com/sixcious/infy-s
 Unfortunately, because browsers strongly discourage this from a security standpoint (especially now that Manifest V3 is out!). Please  feel free to read the [Scripts and Styles](https://github.com/sixcious/infy-scroll/wiki/Scripts-and-Styles) section for more information and a potential solution.
 
 #### What is the minimum browser version (and why is it to so high)?
-The current minimum browser version is Chrome/Edge/Firefox `130`. I usually update the minimum browser version every time I do a release so I can use the latest and greatest ECMAScript features without worry. If your browser doesn't support it, I'm afraid you'll have to use another app/extension (sorry!).
+The current minimum browser version is Chrome/Edge/Firefox `140`. I usually update the minimum browser version every time I do a release so I can use the latest and greatest ECMAScript features without worry. If your browser doesn't support it, I'm afraid you'll have to use another app/extension (sorry!).
 
 #### Why is the production version's source code minified?
 I use [Terser](https://github.com/terser/terser) to minify the source code for production releases that I upload to your browser's web store. I mainly do this because I write a lot of comments and `console.log()` statements for debugging and because it cuts down the file size significantly.
@@ -96,5 +97,4 @@ Thank you for considering to contribute! The best way you can help me is to leav
 
 ## Copyright
 Infy Scroll  
-Copyright &copy; 2015-2020 <a href="https://github.com/sixcious" target="_blank">Six</a>  
-Character Design and Artwork Copyright &copy; 2020 <a href="https://x.com/thejoyfool" target="_blank">Joyfool</a>
+Copyright &copy; 2015-2020 <a href="https://github.com/sixcious" target="_blank">Sixcious</a>  
