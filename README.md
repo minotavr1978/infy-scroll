@@ -40,7 +40,7 @@ Since releasing Infy Scroll in August 2020, if you were to ask me what is the on
 In developing something like Infy Scroll, my primary research is focused on answering the question: "Can it work on this site?" Starting in V9, XF makes many of these "impossible" sites — possible. It's tech that no one else is currently using (as of September 2025). That's Innovation — *that's* Infy.
 
 ## Auto Settings, AI, and the Auto Activation Endgame
-With Auto Settings now in V10, we're coming ever closer to what I envision the endgame for Infy Scroll will look like. The true endgame is a feature I'm dubbing "Auto Activation." To get there though, we'll likely need AI. I'm currently working on some proof-of-concept ideas and hope to make this a plausible reality one day in the near or distant future.
+With Auto Settings now in V10, we're coming ever closer to what I think the endgame for Infy Scroll will look like. The true endgame is a feature I'm dubbing "Auto Activation." To get there though, we'll likely need AI. I'm currently working on some proof-of-concept ideas and hope to make this a plausible reality one day in the near or distant future.
 
 ## Documentation
 [Help Guide](https://github.com/sixcious/infy-scroll/wiki)
