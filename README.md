@@ -14,41 +14,36 @@
 <br><br>
 
 ## Important
-Infy contains some experimental ideas and features. This means it might contain a few bugs and it might not work on every website you try it on! But I really want you to be 100% happy with Infy, so if something isn't working right, or if there's a feature you think is missing, please open an issue on GitHub and give me a chance to fix it before leaving a low rating/review, and I promise I will.
+I want you to be 100% happy with Infy Scroll! If something isn't working right, or if there's a feature you think is missing, please open an issue on GitHub and give me a chance to help before leaving a review:
+https://github.com/sixcious/infy-scroll/issues
 <br><br>
 
 ## About
-Infy Scroll can let you add customized infinite scrolling to websites and can auto-load the next page. It's also compatible with the AutoPagerize Database, which means it supports thousands of websites automatically. Infy supports 4 different actions and 6 different append modes so you can customize each site's infinite scrolling to how you want it to be. Infy understands both CSS Selector and XPath expressions for finding next links, and it features an Element Picker that can generate them for you, similar to the original AutoPager. It can also increment URLs and perform special actions, like clicking "Load More" buttons. You can save your settings for each URL and Infy will auto-activate the next time you visit them.
+Infy Scroll can let you add customized infinite scrolling to websites and can auto-load the next page for you. Infy is is all about giving you 100% customization: you can customize each site's infinite scrolling settings exactly to how you want them to be, or you can let Infy analyze the page and try to apply the recommended settings for you. Note: Because each site is designed differently, Infy might not work on every site you try it on.
 
 ## Features
-- 4 Actions: Next Link, Click Element, Increment URL, URL List
-- 6 Append Modes: Page, Iframe, Element, Media, AJAX, and None
-- Support for 3 Path Types: Infy understands CSS Selectors, XPath expressions, and JS Paths, and can auto-detect what type of path you are entering, or can be set to a fixed path type by toggling the label (SE/XP/JS)
-- Element Picker (Powered by ElemPick): Pick an element on the page and generate its Selector or XPath expression automatically or use the EP's buttons to traverse the DOM in any direction (May not work on complex websites)
-- Auto Detect (an innovative feature): Let Infy's algorithm try to detect the next link, page element, and click elements for you (May not work well on complex websites)
+- Auto Settings: Infy can analyze a page and apply the recommended settings for you with a confidence score using its algorithms (May not work on every website)
+- Customization: Customize every setting, from the paths Infy should use to the color of the page divider
+- Main Features: 4 Actions and 6 Append Modes to support many websites
 - Auto Mode: Automatically append pages, or use Slideshow Mode (supports Pause and Repeat)
-- AJAX Support: Infy features two unique and innovative AJAX append modes: Iframe and Native
-- SPA Support: Infy supports the Navigation API to detect navigation events so you don't have to refresh the page as often
-- XF: An innovative feature that improves compatibility with websites
-- Save URLs: Infy can save custom site-specific settings and then auto-activate on your favorite URLs
+- Save URLs: Infy can save your settings and then auto-activate on your favorite URLs
 - Database Support: Infy supports the AutoPagerize and InfyScroll Databases allowing it to support thousands of websites for you automatically
-- Custom Scripts: Infy has custom scripts for a few popular websites (such as Google Search) that will try to fix missing image thumbnails
-- Advanced Features: Fix lazy loading or use the Element Iframe mode to fix missing images
-- Scripts and Styles Features: Add Custom CSS and more
+- Element Picker (Powered by ElemPick): Pick an element on the page and generate a path to it automatically (May not work on complex websites)
+- Path Types: Infy understands CSS Selectors, XPath expressions, and JS Paths, and can auto-detect what type of path you are entering, or can be set to a fixed path type by toggling the label (SE/XP/JS)
+- Extra Features: Infy has extra features and custom scripts for a few popular websites (such as Google Search) that will try to fix missing image thumbnails
 - User Interface: A simple UI made with Material Design and Lit
 
 ## Introducing AJAX
-Since releasing Infy Scroll in August 2020, if you were to ask me what is the one feature I was working my hardest to implement — it's always been an append mode for [AJAX websites](https://developer.mozilla.org/docs/Glossary/AJAX). After two years of on and off development, I'm really proud to offer this [completely new and innovative append mode](https://github.com/sixcious/infy-scroll/wiki/AJAX) in Version 8, The Eightfinity Edition. AJAX comes in two versions: Iframe and Native. AJAX is mostly in the proof of concept stage right now, but does work on many sites, including Pixiv.
-
-## SPA Support
-[SPAs (Single-page Applications)](https://developer.mozilla.org/docs/Glossary/SPA) are tricky to deal with because they update their page content dynamically, and sometimes don't even update the address bar. However, Infy now supports the [Navigation API](https://developer.mozilla.org/docs/Web/API/Navigation_API) (Chrome/Edge 102+ Only) to detect browser navigations and it can also watch for changes on the page and auto-activate and auto-deactivate itself if the website changes its content dynamically. (If you're on Firefox, you can check the Late Activation setting in the UI Window's Scripts dialog and save the URL.) No more refreshing the page!
+Since releasing Infy Scroll in August 2020, if you were to ask me what is the one feature I was working my hardest to implement — it's always been an append mode for [AJAX websites](https://developer.mozilla.org/docs/Glossary/AJAX). After two years of on and off development, I'm really proud to offer this [completely new and innovative append mode](https://github.com/sixcious/infy-scroll/wiki/AJAX) in V8, The Eightfinity Edition. AJAX comes in two versions: Iframe and Native.
 
 ## XF — One Step Closer to the Endgame
-In developing something like Infy Scroll, my primary research is focused on answering the question: "Can it work on this site?" Starting in Version 9, XF makes many of these "impossible" sites — possible. It's tech that no one else is currently using (as of September 2025). That's Innovation — *that's* Infy.
+In developing something like Infy Scroll, my primary research is focused on answering the question: "Can it work on this site?" Starting in V9, XF makes many of these "impossible" sites — possible. It's tech that no one else is currently using (as of September 2025). That's Innovation — *that's* Infy.
+
+## Auto Settings, AI, and the Auto Activation Endgame
+With Auto Settings now in V10, we're coming ever closer to what I envision the endgame for Infy Scroll will look like. The true endgame is a feature I'm dubbing "Auto Activation." To get there though, we'll likely need AI. I'm currently working on some proof-of-concept ideas and hope to make this a plausible reality one day in the near or distant future.
 
 ## Documentation
-- [Help Guide](https://github.com/sixcious/infy-scroll/wiki)
-- [Version History](https://github.com/sixcious/infy-scroll/wiki/Version-History)
+[Help Guide](https://github.com/sixcious/infy-scroll/wiki)
 
 ## FAQ
 #### Can you help me make it work with a specific website?
