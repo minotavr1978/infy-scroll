@@ -1,0 +1,1418 @@
+{
+  "name": {
+    "message": "Infy Scroll"
+  },
+  "short_name": {
+    "message": "Infy"
+  },
+  "description": {
+    "message": "Додає налаштовану нескінченну прокрутку на сайти та автоматично завантажує наступну сторінку. Підтримує базу AutoPagerize. (Бета)"
+  },
+  "title": {
+    "message": "Infy Scroll"
+  },
+  "INSTALL": {
+    "message": "----- ВСТАНОВЛЕННЯ -----"
+  },
+  "install_dialog_title": {
+    "message": "Дякуємо, що додали Infy Scroll"
+  },
+  "install_dialog_know": {
+    "message": "Перед початком варто знати кілька речей..."
+  },
+  "install_dialog_list_1": {
+    "message": "Infy зараз у бета-версії. На жаль, це означає, що він може працювати не на кожному сайті"
+  },
+  "install_dialog_list_2": {
+    "message": "Infy уже налаштовано на автоматичну активацію на багатьох сайтах. Якщо ви цього не хочете, вимкніть «Автоактивація» в параметрах бази даних"
+  },
+  "install_dialog_toolbar_message": {
+    "message": "Також, якщо ви не бачите піктограму Infy на панелі інструментів браузера, "
+  },
+  "install_dialog_toolbar_chrome": {
+    "message": "натисніть піктограму «Пазл» на панелі інструментів, щоб закріпити її."
+  },
+  "install_dialog_toolbar_edge": {
+    "message": "натисніть «Меню браузера» на панелі інструментів, щоб закріпити її."
+  },
+  "install_dialog_toolbar_firefox": {
+    "message": "натисніть «Меню > Налаштувати» на панелі інструментів, щоб закріпити її."
+  },
+  "bugs_warning": {
+    "message": "... Ви все ще впевнені? Можуть бути помилки!"
+  },
+  "SHARED": {
+    "message": "----- СПІЛЬНЕ -----"
+  },
+  "placeholder": {
+    "message": "Заповнювач"
+  },
+  "mdc_button_ok": {
+    "message": "OK"
+  },
+  "mdc_button_dont": {
+    "message": "Більше не показувати"
+  },
+  "mdc_button_yes": {
+    "message": "ТАК"
+  },
+  "mdc_button_no": {
+    "message": "НІ"
+  },
+  "scroll_action_subheader": {
+    "message": "Виберіть дію"
+  },
+  "scroll_action_next_label": {
+    "message": "Наступне посилання"
+  },
+  "scroll_action_increment_label": {
+    "message": "Збільшити URL"
+  },
+  "scroll_action_button_label": {
+    "message": "Натиснути кнопку"
+  },
+  "scroll_action_list_label": {
+    "message": "Список URL"
+  },
+  "scroll_append_subheader": {
+    "message": "Виберіть режим додавання"
+  },
+  "scroll_append_page_label": {
+    "message": "Сторінка"
+  },
+  "scroll_append_iframe_label": {
+    "message": "Iframe"
+  },
+  "scroll_append_element_label": {
+    "message": "Елемент"
+  },
+  "scroll_append_media_label": {
+    "message": "Медіа"
+  },
+  "scroll_append_none_label": {
+    "message": "Нічого"
+  },
+  "scroll_append_keep_label": {
+    "message": "Зберегти"
+  },
+  "scroll_append_page_subtitle": {
+    "message": "Для простих сайтів"
+  },
+  "scroll_append_iframe_subtitle": {
+    "message": "Для складних сайтів"
+  },
+  "scroll_append_element_subtitle": {
+    "message": "Режим AutoPagerize"
+  },
+  "scroll_append_media_subtitle": {
+    "message": "Зображення та відео"
+  },
+  "scroll_append_none_subtitle": {
+    "message": "Без додавання"
+  },
+  "scroll_append_keep_subtitle": {
+    "message": "Зберігати елементи"
+  },
+  "scroll_append_page_description": {
+    "message": "Додає всю сторінку як є, але може зламати HTML або зображення"
+  },
+  "scroll_append_iframe_description": {
+    "message": "Додає всю сторінку в iframe, щоб HTML або зображення не ламалися"
+  },
+  "scroll_append_element_description": {
+    "message": "Додає певні елементи сторінки для плавної прокрутки"
+  },
+  "scroll_append_media_description": {
+    "message": "Для послідовних URL, які вказують безпосередньо на медіа, наприклад «001.jpg»"
+  },
+  "scroll_append_none_description": {
+    "message": "Infy нічого не додаватиме після виконання цієї дії"
+  },
+  "scroll_append_keep_description": {
+    "message": "Намагається не замінювати певні елементи на сторінці"
+  },
+  "scroll_wrap_first_page_label": {
+    "message": "Обернути сторінку 1 в iframe для максимальної стійкості"
+  },
+  "scroll_height_wait_label": {
+    "message": "Очікування iframe"
+  },
+  "scroll_height_wait_tooltip": {
+    "message": "Цей параметр змушує Infy зачекати вказану кількість мілісекунд перед обчисленням остаточної висоти iframe, якщо динамічний вміст ще не завершив завантаження. На деяких сайтах це значення може знадобитися змінити. Наприклад, якщо сторінки занадто короткі й вміст обрізається, збільште очікування. Якщо сторінки занадто високі й з'являється зайвий порожній простір, зменште очікування. Добре початкове значення — 3000 мс."
+  },
+  "scroll_element_rule_label": {
+    "message": "Правило елемента сторінки"
+  },
+  "scroll_element_rule_tooltip": {
+    "message": "Це правило знаходить конкретні елементи сторінки, які потрібно додавати. Наприклад, якщо елементи розміщені всередині таблиці, тобто в рядках таблиці, правилом елемента сторінки може бути CSS-селектор на кшталт table tr або XPath на кшталт //table//tr"
+  },
+  "scroll_element_insert_rule_label": {
+    "message": "Вставити перед"
+  },
+  "scroll_element_insert_rule_tooltip": {
+    "message": "Це правило необов'язкове й використовується рідко. Воно дає змогу налаштувати точку вставлення елемента сторінки перед футерами або роздільниками пагінації, щоб вони не потрапляли в поле зору."
+  },
+  "scroll_element_iframe_label": {
+    "message": "Додавати елементи в iframe"
+  },
+  "scroll_element_iframe_tooltip": {
+    "message": "Увімкнення цього параметра працює як гібрид режимів Iframe та Елемент. Замість додавання елементів як є, Infy додаватиме їх в iframe, щоб запобігти поломці HTML або зображень у режимі Елемент."
+  },
+  "scroll_media_type_label": {
+    "message": "Тип медіа"
+  },
+  "scroll_media_type_option_image": {
+    "message": "Зображення"
+  },
+  "scroll_media_type_option_video": {
+    "message": "Відео"
+  },
+  "scroll_media_type_option_audio": {
+    "message": "Аудіо"
+  },
+  "scroll_media_type_option_detect": {
+    "message": "Автовизначення"
+  },
+  "selection_label": {
+    "message": "Виділення"
+  },
+  "interval_label": {
+    "message": "Інтервал"
+  },
+  "error_skip_label": {
+    "message": "Пропуск помилок"
+  },
+  "error_skip_tooltip": {
+    "message": "Перевіряє, чи поверне наступний URL код HTTP-помилки, наприклад 404, і знову збільшує значення, пропускаючи його до 100 разів, доки не знайде робочий URL. Зауважте, що деякі сайти можуть не повертати код помилки. Під час пропуску помилок може бути затримка в кілька секунд. Установіть 0, щоб вимкнути."
+  },
+  "base_label": {
+    "message": "Тип основи"
+  },
+  "base_option_default": {
+    "message": "Типово"
+  },
+  "base_option_date": {
+    "message": "Дата й час"
+  },
+  "base_option_decimal": {
+    "message": "Десяткове число"
+  },
+  "base_option_roman": {
+    "message": "Римське число"
+  },
+  "base_option_custom": {
+    "message": "Власна основа"
+  },
+  "base_option_2": {
+    "message": "2 двійкова"
+  },
+  "base_option_3": {
+    "message": "3 трійкова"
+  },
+  "base_option_4": {
+    "message": "4 четверична"
+  },
+  "base_option_5": {
+    "message": "5 п'ятіркова"
+  },
+  "base_option_6": {
+    "message": "6 шісткова"
+  },
+  "base_option_7": {
+    "message": "7 сімкова"
+  },
+  "base_option_8": {
+    "message": "8 вісімкова"
+  },
+  "base_option_9": {
+    "message": "9 дев'яткова"
+  },
+  "base_option_10": {
+    "message": "10 десяткова"
+  },
+  "base_option_11": {
+    "message": "11 одинадцяткова"
+  },
+  "base_option_12": {
+    "message": "12 дванадцяткова"
+  },
+  "base_option_13": {
+    "message": "13 тринадцяткова"
+  },
+  "base_option_14": {
+    "message": "14 чотирнадцяткова"
+  },
+  "base_option_15": {
+    "message": "15 п'ятнадцяткова"
+  },
+  "base_option_16": {
+    "message": "16 шістнадцяткова"
+  },
+  "base_option_17": {
+    "message": "17 сімнадцяткова"
+  },
+  "base_option_18": {
+    "message": "18 вісімнадцяткова"
+  },
+  "base_option_19": {
+    "message": "19 дев'ятнадцяткова"
+  },
+  "base_option_20": {
+    "message": "20 двадцяткова"
+  },
+  "base_option_21": {
+    "message": "21 двадцятиодинкова"
+  },
+  "base_option_22": {
+    "message": "22 двадцятидвійкова"
+  },
+  "base_option_23": {
+    "message": "23 двадцятитрійкова"
+  },
+  "base_option_24": {
+    "message": "24 двадцятичотирикова"
+  },
+  "base_option_25": {
+    "message": "25 двадцятип'ятіркова"
+  },
+  "base_option_26": {
+    "message": "26 двадцятишісткова"
+  },
+  "base_option_27": {
+    "message": "27 двадцятисімкова"
+  },
+  "base_option_28": {
+    "message": "28 двадцятивісімкова"
+  },
+  "base_option_29": {
+    "message": "29 двадцятидев'яткова"
+  },
+  "base_option_30": {
+    "message": "30 тридцяткова"
+  },
+  "base_option_31": {
+    "message": "31 тридцятиодинкова"
+  },
+  "base_option_32": {
+    "message": "32 тридцятидвійкова"
+  },
+  "base_option_33": {
+    "message": "33 тридцятитрійкова"
+  },
+  "base_option_34": {
+    "message": "34 тридцятичотирикова"
+  },
+  "base_option_35": {
+    "message": "35 тридцятип'ятіркова"
+  },
+  "base_option_36": {
+    "message": "36 тридцятишісткова"
+  },
+  "base_case_lowercase_label": {
+    "message": "Нижній регістр"
+  },
+  "base_case_uppercase_label": {
+    "message": "Верхній регістр"
+  },
+  "base_date_format_label": {
+    "message": "Формат дати"
+  },
+  "base_roman_latin_label": {
+    "message": "VII vii"
+  },
+  "base_roman_u216x_label": {
+    "message": "Ⅶ"
+  },
+  "base_roman_u217x_label": {
+    "message": "ⅶ"
+  },
+  "base_roman_latin_tooltip": {
+    "message": "Латиниця"
+  },
+  "base_roman_u216x_tooltip": {
+    "message": "U216"
+  },
+  "base_roman_u217x_tooltip": {
+    "message": "U217"
+  },
+  "base_custom_label": {
+    "message": "Алфавіт"
+  },
+  "base_date_tooltip": {
+    "message": "Перегляньте довідник щодо форматів дат"
+  },
+  "base_custom_tooltip": {
+    "message": "Перегляньте довідник щодо власних основ"
+  },
+  "CONTENTSCRIPT": {
+    "message": "----- СКРИПТ ВМІСТУ -----"
+  },
+  "iframes_not_supported_error": {
+    "message": "Infy не може додавати iframe на цьому сайті, найімовірніше тому, що сайт встановив для «X-Frame-Options» значення «deny»."
+  },
+  "POPUP": {
+    "message": "----- СПЛИВНЕ ВІКНО -----"
+  },
+  "down_button_title": {
+    "message": "На одну сторінку вниз"
+  },
+  "up_button_title": {
+    "message": "На одну сторінку вгору"
+  },
+  "off_button_title": {
+    "message": "Вимкнути (натисніть ПРИЙНЯТИ, щоб увімкнути знову)"
+  },
+  "setup_button_title": {
+    "message": "Налаштування"
+  },
+  "auto_pause_button_title": {
+    "message": "Призупинити авто"
+  },
+  "auto_resume_button_title": {
+    "message": "Відновити авто"
+  },
+  "save_url_exact_icon_title": {
+    "message": "Це збережений URL (точний)"
+  },
+  "save_url_pattern_icon_title": {
+    "message": "Це збережений URL (шаблон)"
+  },
+  "save_url_regex_icon_title": {
+    "message": "Це збережений URL (регулярний вираз)"
+  },
+  "whitelist_icon_title": {
+    "message": "Це URL із білого списку"
+  },
+  "database_icon_title": {
+    "message": "Це URL із бази даних"
+  },
+  "auto_slideshow_icon_title": {
+    "message": "Автослайдшоу"
+  },
+  "shuffle_urls_icon_title": {
+    "message": "Перемішування URL"
+  },
+  "popup_activated_snackbar_label": {
+    "message": "Увага! Infy уже активовано, і ви можете не мати змоги внести суттєві зміни, наприклад змінити режим додавання, доки не оновите сторінку."
+  },
+  "popup_activated_also_snackbar_label": {
+    "message": " Також це ?; щоб Infy не активувався автоматично після оновлення, можливо, спочатку потрібно натиснути червону кнопку вимкнення"
+  },
+  "popup_found_snackbar_label": {
+    "message": "Infy знайшов ?, що відповідає цьому URL, і зміг попередньо налаштувати його для вас"
+  },
+  "save_url_button": {
+    "message": "Зберегти цей URL"
+  },
+  "save_url_title": {
+    "message": "Зберегти цей URL?"
+  },
+  "save_title_label": {
+    "message": "Назва (необов'язково)"
+  },
+  "save_url_label": {
+    "message": "URL"
+  },
+  "save_url_type_exact_label": {
+    "message": "Точний"
+  },
+  "save_url_type_exact_tooltip": {
+    "message": "Збережіть точний URL, коли використовується дія «Збільшити URL» і ви вручну змінили типове виділення для збільшення, або якщо потрібно зіставляти лише цей один точний URL"
+  },
+  "save_url_type_pattern_label": {
+    "message": "Шаблон"
+  },
+  "save_url_type_pattern_tooltip": {
+    "message": "Збереження шаблону дає змогу легко зіставляти кілька URL двома способами: 1) як «підрядок» або 2) як «маску». Наприклад, можна зберегти шаблон-підрядок www.example.com/pictures/, щоб зіставляти всі URL, які містять www.example.com/pictures/. Якщо додати хоча б один символ *, шаблон буде оброблятися як маска. Наприклад, маска *www.example.com/*/* зіставить і https://www.example.com/pictures/, і https://www.example.com/videos/"
+  },
+  "save_url_type_regex_label": {
+    "message": "Регулярний вираз"
+  },
+  "save_url_type_regex_tooltip": {
+    "message": "Збережіть регулярний вираз для точнішого зіставлення через синтаксис regex. Важливо: під час введення регулярних виразів потрібно екранувати, тобто додавати перед ними зворотну косу риску «\\», такі спеціальні символи, якщо їх треба зіставити буквально: . ? \\ ^ $ * + | ( ) [ ] { } Приклад: ^https?://www\\.example\\.com/.*/"
+  },
+  "save_instructions": {
+    "message": "Збереження цього URL дозволить Infy автоматично активуватися під час наступного відвідування з вибраними тут параметрами."
+  },
+  "save_url_help_title": {
+    "message": "Як правильно зберегти URL:"
+  },
+  "save_url_help_content": {
+    "message": "У більшості випадків можна вибрати «Шаблон» і скоротити URL так, щоб він відповідав кільком схожим URL. Якщо ви знаєте синтаксис regex, можна вибрати «Регулярний вираз». Виберіть «Точний», якщо використовується режим «Збільшити URL» і ви вручну змінили виділення, або якщо потрібно, щоб Infy активувався лише на цьому одному точному URL."
+  },
+  "save_url_example_title": {
+    "message": "Приклад:"
+  },
+  "save_url_example_content": {
+    "message": "Якщо потрібно, щоб Infy активувався на всіх сторінках пошуку Google незалежно від пошукового запиту, виберіть «Шаблон» і скоротіть URL так, щоб у ньому залишилися лише спільні символи всіх URL пошуку Google, наприклад https://www.google.com/search, обрізавши все після «search»"
+  },
+  "save_dialog_notice": {
+    "message": "Натисніть ТАК і ПРИЙНЯТИ, щоб остаточно зберегти URL, або НІ і ПРИЙНЯТИ, щоб видалити його"
+  },
+  "scripts_and_styles_dialog_title": {
+    "message": "Скрипти та стилі"
+  },
+  "scripts_and_styles_dialog_instructions": {
+    "message": "Infy може додавати скрипти та стилі кожної сторінки й виправляти lazy loading, щоб допомогти з поламаним HTML або відсутніми зображеннями. Зазвичай ці параметри не потрібно вмикати, але на деяких сайтах вони можуть допомогти."
+  },
+  "scripts_and_styles_dialog_help_title": {
+    "message": "Допоможіть! Який параметр спробувати першим?"
+  },
+  "scripts_and_styles_dialog_help_content": {
+    "message": "Якщо параметр «Виправити lazy loading» не допомагає, вимкніть його й спробуйте «Додавати скрипти», щоб перевірити, чи це виправить проблему. «Додавати стилі» потрібен рідко й частіше може спричиняти проблеми, тому використовуйте його лише як останній варіант, якщо вважаєте, що на сторінці є проблеми зі стилями. Якщо жоден параметр не допомагає, спробуйте змінити режим додавання на Iframe або Element Iframe, щоб кожна сторінка додавала свої скрипти та стилі в ізольованому середовищі."
+  },
+  "scripts_and_styles_dialog_notice": {
+    "message": "Примітка: ці параметри застосуються, починаючи з наступної доданої сторінки"
+  },
+  "scripts_and_styles_dialog_warning": {
+    "message": "Попередження: ці параметри можуть бути вилучені в майбутньому"
+  },
+  "scroll_append_scripts_label": {
+    "message": "Додавати скрипти кожної сторінки (JavaScript)"
+  },
+  "scroll_append_scripts_tooltip": {
+    "message": "Увага! Ця функція додаватиме скрипти кожної сторінки й може допомогти виправити відсутні зображення або поламаний HTML. Однак її, можливо, доведеться вилучити в Chrome Manifest v3 через обмеження на вставлення тегів script розширеннями"
+  },
+  "scroll_append_styles_label": {
+    "message": "Додавати стилі кожної сторінки (CSS) [Не рекомендовано]"
+  },
+  "scroll_append_styles_tooltip": {
+    "message": "Увага! Ця функція майже ніколи не потрібна. Увімкніть її лише як останній варіант, адже більшість сайтів не повинні мати специфічні CSS-стилі для схожих сторінок"
+  },
+  "scroll_append_custom_styles_label": {
+    "message": "Додавати мої власні стилі для кожної сторінки (CSS)"
+  },
+  "scroll_append_custom_styles_tooltip": {
+    "message": ""
+  },
+  "scroll_append_custom_styles_textarea_label": {
+    "message": "Мій власний CSS"
+  },
+  "scroll_append_custom_styles_text_field_helper_text": {
+    "message": "Приклад: footer { display: none !important; } img { width: 200px; }"
+  },
+  "scroll_lazy_load_label": {
+    "message": "Виправляти lazy-loaded зображення/медіа"
+  },
+  "scroll_lazy_load_mode_auto_label": {
+    "message": "Автоматично"
+  },
+  "scroll_lazy_load_mode_manual_label": {
+    "message": "Вручну"
+  },
+  "scroll_lazy_load_rule_label": {
+    "message": "Правило lazy-елемента"
+  },
+  "scroll_lazy_load_attribute_source_label": {
+    "message": "Джерельний lazy-атрибут"
+  },
+  "scroll_lazy_load_attribute_source_tooltip": {
+    "message": "Це атрибут елемента, у якому міститься URL медіа. Зазвичай це «data-src» або атрибут «data-*». Перевірте елементи через інструменти розробника браузера, щоб знайти потрібний атрибут."
+  },
+  "scroll_lazy_load_attribute_destination_label": {
+    "message": "Цільовий lazy-атрибут"
+  },
+  "scroll_lazy_load_attribute_destination_tooltip": {
+    "message": "Це атрибут елемента, який потрібно встановити. Для зображень та інших медіа це майже завжди «src». Потрібно встановити background-image? Просто введіть «style.background-image» без лапок, і Infy зрозуміє, що робити."
+  },
+  "next_url_label": {
+    "message": "Наступне посилання"
+  },
+  "prev_url_label": {
+    "message": "Попереднє посилання"
+  },
+  "next_prev_url_not_right": {
+    "message": "Не зовсім правильно? Спробуйте змінити правило або ключові слова в параметрах, або виберіть іншу дію"
+  },
+  "next_prev_chip_set_label": {
+    "message": "Тип посилання"
+  },
+  "increment_header_text": {
+    "message": "Виберіть частину URL для збільшення або "
+  },
+  "decrement_header_text": {
+    "message": "зменшення"
+  },
+  "decrement_tooltip": {
+    "message": "Щоб зменшувати, введіть від'ємний інтервал, наприклад -1"
+  },
+  "url_label": {
+    "message": "URL"
+  },
+  "multi_button_tooltip": {
+    "message": "Мультизбільшення — натисніть, щоб одночасно або в діапазонах збільшувати до 3 частин URL. Докладніше див. у довіднику."
+  },
+  "leading_zeros_pad_label": {
+    "message": "Доповнювати провідними нулями"
+  },
+  "shuffle_urls_label": {
+    "message": "Перемішувати URL"
+  },
+  "button_details": {
+    "message": "Ця дія призначена для проблемних AJAX- і SPA-сайтів. Infy може натискати кнопку «Завантажити ще» під час прокручування вниз і нічого не додавати самостійно, дозволяючи сайту додавати вміст. Infy натискатиме кнопку щоразу, коли ви прокрутите до її позиції."
+  },
+  "button_rule_label": {
+    "message": "Правило кнопки"
+  },
+  "button_method_label": {
+    "message": "Метод"
+  },
+  "button_method_option_click": {
+    "message": "click()"
+  },
+  "button_scroll_pixels_label": {
+    "message": "Позиція кнопки"
+  },
+  "list_header_text": {
+    "message": "Введіть власний список URL"
+  },
+  "list_label": {
+    "message": "Список URL (вставте тут)"
+  },
+  "list_text_field_helper_line": {
+    "message": " URL мають бути розділені переносами рядків, мати той самий домен і починатися з протоколу"
+  },
+  "list_description": {
+    "message": "Infy може додавати серію сторінок на основі вашого власного списку URL. Переконайтеся, що всі URL починаються з протоколу, наприклад https://, і належать до того самого домену, що й поточна сторінка: "
+  },
+  "list_domain_tooltip": {
+    "message": "Це домен/джерело сторінки, на якій ви зараз перебуваєте. Переконайтеся, що всі URL належать цьому домену. Infy не може додавати сторінки з інших доменів через політику CORS, яку застосовує ваш браузер"
+  },
+  "scroll_append_header": {
+    "message": "Виберіть режим додавання"
+  },
+  "auto_header": {
+    "message": "Налаштуйте авто-режим"
+  },
+  "auto_switch_label": {
+    "message": "АВТО"
+  },
+  "auto_label": {
+    "message": "Авто"
+  },
+  "auto_times_label": {
+    "message": "Разів"
+  },
+  "auto_seconds_label": {
+    "message": "Секунди"
+  },
+  "auto_slideshow_label": {
+    "message": "Слайдшоу"
+  },
+  "auto_slideshow_tooltip": {
+    "message": "Режим слайдшоу змусить Infy автоматично прокручувати до кожної сторінки й повторювати це"
+  },
+  "auto_badge_label": {
+    "message": "Показувати залишок"
+  },
+  "auto_behavior_label": {
+    "message": "Плавна прокрутка"
+  },
+  "eta_label": {
+    "message": "Залишилось: "
+  },
+  "eta_day": {
+    "message": "Понад день"
+  },
+  "eta_hour": {
+    "message": " година "
+  },
+  "eta_hours": {
+    "message": " годин "
+  },
+  "eta_minute": {
+    "message": " хвилина "
+  },
+  "eta_minutes": {
+    "message": " хвилин "
+  },
+  "eta_second": {
+    "message": " секунда "
+  },
+  "eta_seconds": {
+    "message": " секунд "
+  },
+  "eta_tbd": {
+    "message": "Невідомо"
+  },
+  "eta_done": {
+    "message": "Готово!"
+  },
+  "element_picker_button": {
+    "message": "Вибір елемента"
+  },
+  "accept_button_label": {
+    "message": "Прийняти"
+  },
+  "cancel_button_label": {
+    "message": "Скасувати"
+  },
+  "scripts_and_styles_button": {
+    "message": "Скрипти та стилі"
+  },
+  "options_button": {
+    "message": "Параметри"
+  },
+  "help_button": {
+    "message": "Довідка"
+  },
+  "loading_message": {
+    "message": "Перевірка ..."
+  },
+  "testing_message": {
+    "message": "Тестування..."
+  },
+  "save_test_result_message_success": {
+    "message": "URL збігається"
+  },
+  "save_test_result_message_error": {
+    "message": "Не збігається"
+  },
+  "next_prev_result_message_success": {
+    "message": "Посилання ? знайдено за допомогою "
+  },
+  "next_prev_result_message_error": {
+    "message": "Посилання ? не знайдено. Спробуйте іншу дію або змініть "
+  },
+  "scroll_element_result_message_success": {
+    "message": "Елементів знайдено: ? за допомогою "
+  },
+  "scroll_element_result_message_error": {
+    "message": "Елементи не знайдено. Спробуйте змінити "
+  },
+  "scroll_element_result_tooltip_success": {
+    "message": "Тег батьківського елемента — ?1, а точка вставлення буде ?2"
+  },
+  "button_result_message_success": {
+    "message": "Кнопку знайдено за допомогою "
+  },
+  "button_result_message_error": {
+    "message": "Кнопку не знайдено. Спробуйте змінити "
+  },
+  "button_result_tooltip_success": {
+    "message": "Назва тегу кнопки — ?, і її можна натиснути"
+  },
+  "button_result_tooltip_error_clickable": {
+    "message": "Правило повернуло елемент, але його не можна натиснути"
+  },
+  "no_result_tooltip_error": {
+    "message": "Схоже, правило Selector або XPath коректне, але нічого не повернуло. Перевірте правило в консолі браузера й спробуйте знову"
+  },
+  "oops_error": {
+    "message": "Ой — перепрошуємо!"
+  },
+  "save_url_error": {
+    "message": "Щоб зберегти URL, введіть URL для збереження або вимкніть кнопку-серце"
+  },
+  "save_type_error": {
+    "message": "Щоб зберегти URL, виберіть тип збереження, наприклад «Шаблон», або вимкніть кнопку-серце"
+  },
+  "scroll_append_media_action_error": {
+    "message": "Режим «Додавати медіа» потребує послідовності URL і може використовуватися лише з діями «Збільшити URL» або «Список URL». Спробуйте вибрати відповідну дію"
+  },
+  "scroll_append_keep_error": {
+    "message": "Режим «Зберегти додавання» з'явиться в майбутньому оновленні! Тим часом спробуйте іншу дію або режим додавання"
+  },
+  "next_prev_empty_error": {
+    "message": "Infy потрібне посилання Next/Prev, щоб продовжити; змініть правило або виберіть іншу дію"
+  },
+  "selection_blank_error": {
+    "message": "Виділення не може бути порожнім"
+  },
+  "selection_notalphanumeric_error": {
+    "message": "Виділяйте лише літерно-цифрові символи або змініть тип основи відповідно до виділення"
+  },
+  "selection_notinurl_error": {
+    "message": "Виділення має бути частиною URL"
+  },
+  "selection_toolarge_error": {
+    "message": "Виділення завелике; виберіть менше число або менше символів"
+  },
+  "selection_base_error": {
+    "message": "Вибирайте лише числа або вищий тип основи, що відповідає символам у виділенні"
+  },
+  "selectionstart_invalid_error": {
+    "message": "Позиція виділення має бути з URL"
+  },
+  "interval_invalid_error": {
+    "message": "Інтервал має бути між -9007199254740991 і 9007199254740991"
+  },
+  "error_skip_invalid_error": {
+    "message": "Пропуск помилок має бути між 0 і 100"
+  },
+  "base_invalid_error": {
+    "message": "Виберіть коректну основу"
+  },
+  "base_date_invalid_error": {
+    "message": "Формат дати не відповідає виділенню. Спробуйте переглянути приклади в довіднику"
+  },
+  "base_roman_invalid_error": {
+    "message": "Не вдалося розпізнати римське число з виділення: Latin — для верхнього й нижнього регістру, U216 і U217 — Unicode"
+  },
+  "base_decimal_invalid_error": {
+    "message": "Не вдалося розпізнати десяткове число у форматі #.#, наприклад «1.5», з виділення"
+  },
+  "base_custom_invalid_error": {
+    "message": "Не вдалося перевірити власну основу щодо виділення. Можливо, у виділенні є символи, яких немає в алфавіті власної основи. Спробуйте переглянути приклади в довіднику"
+  },
+  "multi_count_error": {
+    "message": "Для мультизбільшення виберіть принаймні два виділення в URL"
+  },
+  "multi_save_error": {
+    "message": "Не можна зберегти URL, якщо ввімкнено мультизбільшення, через складність; вимкніть кнопку збереження-серце або кнопки мультизбільшення (+ + +)"
+  },
+  "button_scroll_pixels_error": {
+    "message": "Позиція кнопки має бути між 0 і 10 000 пікселів"
+  },
+  "button_auto_slideshow_error": {
+    "message": "Не можна використовувати режим автослайдшоу з дією «Натиснути кнопку»"
+  },
+  "list_blank_error": {
+    "message": "Список URL не може бути порожнім"
+  },
+  "list_newline_error": {
+    "message": "Список URL має містити щонайменше два URL, розділені переносами рядків"
+  },
+  "auto_times_invalid_error": {
+    "message": "Кількість повторів авто-режиму має бути між 1 і 1000"
+  },
+  "auto_seconds_invalid_error": {
+    "message": "Кількість секунд авто-режиму має бути між 1 і 3600"
+  },
+  "local_url_append_error": {
+    "message": "Схоже, це локальний URL file://, і Infy не може використати вибраний режим додавання через CORS. Змініть його на «Медіа» або «Нічого» (кнопка)"
+  },
+  "popup_error_message": {
+    "message": "Ой — перепрошуємо! Infy не зміг завантажитися на цій сторінці. Можливо, Infy не має дозволу працювати на цій сторінці, наприклад на сторінках браузера, сторінці параметрів або новій вкладці, або потрібно оновити сторінку. Якщо це не допоможе, спробуйте скинути параметри в розділі «Про розширення»."
+  },
+  "popup_error_details": {
+    "message": "Докладніше:"
+  },
+  "popup_error_reason_chrome": {
+    "message": "Chrome не визначено! Це серйозна помилка, оскільки chrome є базовим об'єктом Extension API."
+  },
+  "popup_error_reason_instance": {
+    "message": "Скрипт вмісту Infy не зміг завантажитися. Зазвичай достатньо оновити цю сторінку. У деяких випадках сховище Infy може бути пошкоджене, і вам може знадобитися скинути параметри в розділі «Про розширення». Якщо проблема не зникає, можливо, інше розширення заважає Infy або потрібно перевстановити Infy."
+  },
+  "popup_error_reason_items": {
+    "message": "Елементи сховища Infy пошкоджені! Це серйозна помилка параметрів, оскільки розширення не може працювати без налаштувань. Спробуйте скинути параметри в розділі «Про розширення»."
+  },
+  "popup_error_help": {
+    "message": "Допомога поруч! Натисніть «Довідка», щоб отримати персональну допомогу."
+  },
+  "OPTIONS": {
+    "message": "----- ПАРАМЕТРИ -----"
+  },
+  "options_header_label": {
+    "message": "Параметри"
+  },
+  "options_tab_ui": {
+    "message": "ІНТЕРФЕЙС"
+  },
+  "options_tab_saves": {
+    "message": "ЗБЕРЕЖЕННЯ"
+  },
+  "options_tab_database": {
+    "message": "БАЗА ДАНИХ"
+  },
+  "options_tab_shortcuts": {
+    "message": "СКОРОЧЕННЯ"
+  },
+  "options_tab_scroll": {
+    "message": "ПРОКРУТКА"
+  },
+  "options_tab_next": {
+    "message": "NEXT"
+  },
+  "options_tab_increment": {
+    "message": "ЗБІЛЬШЕННЯ"
+  },
+  "options_tab_extra": {
+    "message": "ДОДАТКОВО"
+  },
+  "options_tab_about": {
+    "message": "ПРО РОЗШИРЕННЯ"
+  },
+  "help_guide_label": {
+    "message": "Довідник"
+  },
+  "report_problem_label": {
+    "message": "Повідомити про проблему"
+  },
+  "ui_settings_header": {
+    "message": "Параметри інтерфейсу"
+  },
+  "ui_settings_description": {
+    "message": "Змініть вигляд і поведінку інтерфейсу."
+  },
+  "state_label": {
+    "message": "Поточний стан"
+  },
+  "state_tooltip": {
+    "message": "Це поточний «глобальний» стан Infy — увімкнено або вимкнено. Коли він вимкнений, Infy не буде автоматично активуватися на збережених URL або URL із бази даних. Цей параметр автоматично змінюється щоразу, коли ви натискаєте кнопки «ПРИЙНЯТИ» або червону кнопку «Вимкнути» у вікні Infy. Він показаний у параметрах лише на вкрай малоймовірний випадок, якщо вам потрібно керувати ним саме тут."
+  },
+  "on_switch_label": {
+    "message": "УВІМК."
+  },
+  "off_switch_label": {
+    "message": "ВИМК."
+  },
+  "toolbar_icon_label": {
+    "message": "Піктограма панелі інструментів"
+  },
+  "toolbar_icon_label_dark": {
+    "message": "Темна"
+  },
+  "toolbar_icon_label_light": {
+    "message": "Світла"
+  },
+  "button_size_label": {
+    "message": "Розмір кнопки"
+  },
+  "interface_image_label": {
+    "message": "Зображення інтерфейсу"
+  },
+  "interface_image_option_infy": {
+    "message": "Infy"
+  },
+  "interface_image_option_infinity": {
+    "message": "Нескінченність"
+  },
+  "interface_image_disclaimer": {
+    "message": "Важливо: щоб надати функціональніший інтерфейс і покращення, наприклад темну тему, параметр «Зображення інтерфейсу» може зникнути, а «Infy» може перестати бути доступним варіантом у майбутніх версіях. Infy завжди залишатиметься видимим у параметрах та інших місцях. Дякуємо за розуміння"
+  },
+  "interface_theme_label": {
+    "message": "Тема інтерфейсу"
+  },
+  "interface_theme_checkbox_label": {
+    "message": "Показувати в інтерфейсі тему Starry Night із версії 6"
+  },
+  "interface_messages_label": {
+    "message": "Повідомлення інтерфейсу"
+  },
+  "interface_messages_checkbox_label": {
+    "message": "Показувати постійні повідомлення в інтерфейсі, наприклад якщо Infy уже активовано"
+  },
+  "dynamic_settings_label": {
+    "message": "Динамічні параметри"
+  },
+  "dynamic_settings_tooltip": {
+    "message": "Дозволяє Infy запам'ятовувати останні використані дію та режим додавання, вибрані в інтерфейсі, як нові типові значення, крім URL із бази даних. Для більшості користувачів це зручно, бо Infy завжди попередньо вибиратиме останній обраний параметр. Вимикати це варто лише тоді, коли ви використовуєте білий список або скорочення «Вниз» для автоактивації Infy, щоб вони завжди виконували ту саму типову дію та режим додавання, наприклад «Наступне посилання» і «Сторінка»."
+  },
+  "dynamic_settings_checkbox_label": {
+    "message": "Запам'ятовувати останній параметр інтерфейсу як новий типовий"
+  },
+  "dynamic_settings_current": {
+    "message": "Поточні типові параметри дії та режиму додавання: "
+  },
+  "dynamic_settings_change": {
+    "message": " Щоб змінити ці параметри, увімкніть прапорець «Динамічні параметри», відкрийте вікно Infy на URL не з бази даних і натисніть ПРИЙНЯТИ. Якщо потрібно зафіксувати нові типові значення, після цього вимкніть прапорець «Динамічні параметри»."
+  },
+  "saved_urls_settings_header": {
+    "message": "Мої збережені URL"
+  },
+  "saved_urls_settings_description": {
+    "message": "Зберігайте власні URL — кожен зі своїми параметрами нескінченної прокрутки — і Infy автоматично активується під час наступного відвідування. URL можна зберегти, натиснувши кнопку-серце у правому верхньому куті вікна Infy. Щоб максимально захистити приватність, Infy зберігає URL лише локально на вашому пристрої, а не в хмарі."
+  },
+  "saved_urls_none": {
+    "message": "... Ой! У вас ще немає збережених URL."
+  },
+  "saved_urls_quantity": {
+    "message": "Кількість моїх збережених URL: "
+  },
+  "saved_urls_click_details": {
+    "message": "Натисніть збережені URL, щоб переглянути подробиці"
+  },
+  "saved_urls_delete_label": {
+    "message": "Видалити вибрані збереження"
+  },
+  "saved_urls_dialog_title": {
+    "message": "Збережений URL"
+  },
+  "saved_urls_dialog_id_label": {
+    "message": "ID"
+  },
+  "saved_urls_dialog_url_label": {
+    "message": "URL"
+  },
+  "saved_urls_dialog_date_label": {
+    "message": "Дата"
+  },
+  "saved_urls_dialog_type_label": {
+    "message": "Тип"
+  },
+  "saved_urls_dialog_action_label": {
+    "message": "Дія"
+  },
+  "saved_urls_dialog_append_label": {
+    "message": "Додавання"
+  },
+  "saved_urls_dialog_json_label": {
+    "message": "Показати всі подробиці"
+  },
+  "saved_urls_dialog_json_title": {
+    "message": "JSON-об'єкт збереженого URL"
+  },
+  "table_heading_id": {
+    "message": "ID"
+  },
+  "table_heading_url": {
+    "message": "URL"
+  },
+  "table_heading_date": {
+    "message": "Дата"
+  },
+  "whitelist_enable_label": {
+    "message": "Використовувати білий список для швидкого збереження списку URL із типовими параметрами нескінченної прокрутки"
+  },
+  "whitelist_settings_header": {
+    "message": "Мій білий список"
+  },
+  "whitelist_explanation": {
+    "message": "Не потрібно зберігати кожен URL окремо зі своїми параметрами? Тут можна ввести «білий список» URL, і Infy автоматично активуватиметься під час їх відвідування з типовими параметрами нескінченної прокрутки — дією і додаванням. Не забудьте вимкнути прапорець «Динамічні параметри» в розділі інтерфейсу, щоб типові параметри не змінювалися."
+  },
+  "whitelist_label": {
+    "message": "Мій білий список"
+  },
+  "whitelist_textarea": {
+    "message": "Введіть список URL або шаблонів URL, розділених комами, пробілами чи переносами рядків."
+  },
+  "whitelist_text_field_helper_text": {
+    "message": "Розділяйте URL переносами рядків. Якщо використовуєте регулярні вирази, оточуйте їх символами /. Якщо вводите точні URL, оточуйте їх символами \". Усе інше обробляється як шаблон, тобто як підрядок або маска із символами *. Докладніше див. у довіднику. Приклади:"
+  },
+  "database_whitelist_blacklist_text_field_helper_text": {
+    "message": "Розділяйте URL переносами рядків. Якщо використовуєте регулярні вирази, оточуйте їх символами /. Якщо вводите точні URL, оточуйте їх символами \". Якщо зіставляєте URL із бази даних, оточуйте їх символами ( ). Усе інше обробляється як шаблон, тобто як підрядок або маска із символами *. Докладніше див. у довіднику. Приклади:"
+  },
+  "database_settings_header": {
+    "message": "База даних AutoPagerize"
+  },
+  "database_settings_description_1": {
+    "message": "Infy може використовувати "
+  },
+  "database_settings_description_link": {
+    "message": "базу AutoPagerize (Site Info)"
+  },
+  "database_settings_description_2": {
+    "message": " для автоматичного налаштування нескінченної прокрутки на тисячах сайтів. Можна ввімкнути автоматичну активацію Infy на всіх URL із бази даних за замовчуванням і заборонити окремі через чорний список, або не активувати за замовчуванням, але дозволити окремі через білий список. Це керується прапорцем «Автоактивація на всіх URL із бази даних» нижче."
+  },
+  "database_settings_help_link": {
+    "message": "База AutoPagerize розміщена на Wedata.net"
+  },
+  "database_settings_help_1": {
+    "message": " і підтримується та оновлюється такими ж користувачами, як ви! Будь ласка, долучайтеся до бази й допомагайте спільноті, щоб усі могли користуватися внеском одне одного. Докладніше про внесок див. у довіднику."
+  },
+  "database_disclaimer": {
+    "message": " Важливо: маєте встановлене розширення типу AutoPagerize? Якщо так, видаліть базу даних або вимкніть «Автоактивація на всіх URL із бази даних», щоб Infy не активувався одночасно з AP. Ви й надалі можете використовувати розширення AutoPagerize для URL із бази даних, а Infy — для всіх інших URL."
+  },
+  "database_url_index": {
+    "message": "http://wedata.net/databases/AutoPagerize/items"
+  },
+  "database_url": {
+    "message": "https://cdn.jsdelivr.net/gh/cdnize/cdnize.github.io/databases/AutoPagerize/items_all.json"
+  },
+  "database_url_backup": {
+    "message": "https://cdn.statically.io/gh/cdnize/cdnize.github.io/main/databases/AutoPagerize/items_all.json"
+  },
+  "database_download_label": {
+    "message": "Завантажити базу даних"
+  },
+  "database_update_label": {
+    "message": "Оновити базу даних"
+  },
+  "database_delete_label": {
+    "message": "Видалити базу даних"
+  },
+  "database_url_count": {
+    "message": "Кількість URL у базі даних: "
+  },
+  "database_last_updated": {
+    "message": "Останнє оновлення: "
+  },
+  "database_auto_update_tooltip": {
+    "message": "Підтримуватиме вашу копію бази AutoPagerize автоматично оновленою, а параметри нескінченної прокрутки сайтів — актуальними. Infy перевірятиме й повторно завантажуватиме базу, якщо з останнього завантаження минуло більше вказаної кількості днів. Рекомендовано встановити 1 або 2 дні, оскільки сайти можуть змінити дизайн будь-коли. Установіть 0, щоб вимкнути автооновлення."
+  },
+  "database_auto_update_label": {
+    "message": "Автоматично оновлювати базу даних кожні "
+  },
+  "database_auto_update_days_label": {
+    "message": " дн."
+  },
+  "database_auto_activate_label": {
+    "message": "Автоактивація на всіх URL із бази даних"
+  },
+  "database_blacklist_label": {
+    "message": "Чорний список бази даних (заборонені URL)"
+  },
+  "database_whitelist_label": {
+    "message": "Білий список бази даних (дозволені URL)"
+  },
+  "database_snackbar_download_downloading_label": {
+    "message": "Завантаження бази даних із "
+  },
+  "database_snackbar_download_success_label": {
+    "message": "Базу даних успішно завантажено"
+  },
+  "database_snackbar_download_error_label": {
+    "message": "Ой! Не вдалося завантажити базу даних із "
+  },
+  "database_snackbar_delete_label": {
+    "message": "Базу даних успішно видалено"
+  },
+  "shortcuts_settings_header": {
+    "message": "Скорочення"
+  },
+  "shortcuts_description": {
+    "message": "Пфф... просто прокручування? Infy підтримує й скорочення! Є скорочення для таких дій: на одну сторінку вниз, на одну сторінку вгору, вимкнути, а також автоматична пауза або відновлення. Коли ви натискаєте скорочення «Вниз», Infy зручно вмикається й автоматично активується з типовими параметрами нескінченної прокрутки, якщо ще не був активований. Не забудьте вимкнути прапорець «Динамічні параметри» в розділі інтерфейсу, щоб типові параметри не змінювалися."
+  },
+  "shortcuts_button_label": {
+    "message": "Налаштувати скорочення"
+  },
+  "shortcuts_dialog_title": {
+    "message": "Налаштування скорочень"
+  },
+  "shortcuts_dialog_description": {
+    "message": "Щоб налаштувати скорочення розширень у браузері:"
+  },
+  "shortcuts_dialog_list_1": {
+    "message": "Перейдіть у браузері на about:addons"
+  },
+  "shortcuts_dialog_list_2": {
+    "message": "Натисніть піктограму шестерні"
+  },
+  "shortcuts_dialog_list_3": {
+    "message": "Натисніть «Керувати скороченнями розширень»"
+  },
+  "shortcuts_dialog_disclaimer": {
+    "message": "Важливо: у майбутньому браузер може змінити ці кроки"
+  },
+  "scroll_settings_header": {
+    "message": "Параметри нескінченної прокрутки"
+  },
+  "scroll_settings_description": {
+    "message": "Ці параметри впливають на те, як Infy працює у фоновому режимі під час прокручування й додавання сторінок. Деякі з них трохи технічні, тому якщо ви помилитеся, можна натиснути кнопку скидання параметрів у розділі «Про розширення», щоб повернути типові значення."
+  },
+  "scroll_action_label": {
+    "message": "Типова дія"
+  },
+  "scroll_append_label": {
+    "message": "Типове додавання"
+  },
+  "scroll_detection_label": {
+    "message": "Виявлення прокрутки"
+  },
+  "scroll_detection_io_label": {
+    "message": "Intersection Observer"
+  },
+  "scroll_detection_sl_label": {
+    "message": "Слухач прокрутки"
+  },
+  "scroll_detection_tooltip": {
+    "message": "Це API, який Infy використовує для визначення поточної позиції прокрутки на сторінці. Слухач прокрутки використовуватиме більше CPU, але точніше визначатиме, коли потрібно додати сторінку. Intersection Observer — новіший API, який використовує менше CPU, але менш точний. Слухач прокрутки Infy ретельно обмежений, щоб не використовувати забагато CPU; однак якщо ви хочете максимально берегти батарею пристрою або спробувати новішу технологію, можете скористатися новішим IO API."
+  },
+  "scroll_detection_throttle_label": {
+    "message": "Обмеження виявлення прокрутки"
+  },
+  "scroll_detection_throttle_tooltip": {
+    "message": "Під час використання слухача прокрутки Infy обмежує його, щоб не витрачати забагато CPU на обчислення поточної позиції прокрутки. Менше мс, тобто менше обмеження, — більше CPU. Більше мс, тобто більше обмеження, — менше CPU. Значення приблизно 200–500 мс зазвичай нормальне."
+  },
+  "scroll_behavior_label": {
+    "message": "Поведінка прокрутки"
+  },
+  "scroll_behavior_auto_label": {
+    "message": "Миттєво"
+  },
+  "scroll_behavior_smooth_label": {
+    "message": "Плавно"
+  },
+  "scroll_behavior_tooltip": {
+    "message": "Коли ви просите Infy прокрутити до сторінки натисканням кнопки або скороченням, він може прокрутити до неї миттєво або плавно. Це не впливає на вашу ручну прокрутку."
+  },
+  "scroll_update_label": {
+    "message": "Оновлення під час прокрутки"
+  },
+  "scroll_update_address_label": {
+    "message": "Адресний рядок (історія)"
+  },
+  "scroll_update_title_label": {
+    "message": "Назва вкладки"
+  },
+  "scroll_update_tooltip": {
+    "message": "Під час прокручування Infy може оновлювати адресний рядок і назву вкладки, щоб вони відображали фактичний URL і назву поточної сторінки, яку ви переглядаєте. Важливо: оновлення адресного рядка додає URL до історії перегляду, крім режиму інкогніто/приватного перегляду, тому ви можете вимкнути це, якщо хочете мінімізувати історію. Адресний рядок не можна оновити під час перегляду локальних файлів."
+  },
+  "scroll_append_threshold_label": {
+    "message": "Поріг додавання"
+  },
+  "scroll_append_threshold_pages_bottom_label": {
+    "message": "Сторінок від останньої сторінки"
+  },
+  "scroll_append_threshold_pixels_bottom_label": {
+    "message": "Пікселів від низу"
+  },
+  "scroll_append_threshold_tooltip": {
+    "message": "Впливає на те, наскільки заздалегідь Infy має почати запитувати нову сторінку для додавання залежно від вашої позиції прокрутки. Наприклад, значення 500 пікселів означає, що Infy не почне додавати нову сторінку, доки ви не прокрутите до відстані 500 пікселів від низу. Для більшості сайтів варто тримати це значення близько 500–1000 пікселів для продуктивності й ефективності. Примітка: якщо використовується Intersection Observer, метрика порогу вимірюється у сторінках, а не пікселях — тобто скільки сторінок залишилося до останньої."
+  },
+  "scroll_append_delay_label": {
+    "message": "Затримка додавання"
+  },
+  "scroll_append_delay_tooltip": {
+    "message": "Щоб не перевантажувати сервер сайту, Infy додає невелику затримку після додавання сторінки перед тим, як дозволити запит наступної. Значення 2000 мс, тобто 2 секунди, підходить для більшості сайтів і зазвичай є найнижчим рекомендованим. В авто-режимі затримку додавання замінює встановлена кількість авто-секунд."
+  },
+  "scroll_divider_label": {
+    "message": "Роздільник сторінок"
+  },
+  "scroll_divider_option_no": {
+    "message": "Ні"
+  },
+  "scroll_divider_option_yes": {
+    "message": "Так"
+  },
+  "scroll_divider_option_element": {
+    "message": "Лише в режимі додавання елемента"
+  },
+  "scroll_divider_align_label": {
+    "message": "Вирівнювання роздільника сторінок"
+  },
+  "scroll_divider_align_left_label": {
+    "message": "Ліворуч"
+  },
+  "scroll_divider_align_center_label": {
+    "message": "По центру"
+  },
+  "scroll_divider_align_right_label": {
+    "message": "Праворуч"
+  },
+  "scroll_overlay_label": {
+    "message": "Накладка сторінки"
+  },
+  "scroll_overlay_checkbox_label": {
+    "message": "Показувати накладку з номером поточної сторінки у правому верхньому куті"
+  },
+  "scroll_icon_label": {
+    "message": "Піктограма"
+  },
+  "scroll_icon_checkbox_label": {
+    "message": "Показувати піктограму нескінченності всередині роздільника сторінок і накладки, щоб було видно, що це Infy!"
+  },
+  "scroll_loading_label": {
+    "message": "Завантаження"
+  },
+  "scroll_loading_checkbox_label": {
+    "message": "Показувати анімацію нескінченності внизу, коли Infy завантажує"
+  },
+  "next_prev_settings_header": {
+    "message": "Параметри Next/Prev"
+  },
+  "next_prev_settings_description": {
+    "message": "Це невеликий погляд у «мозок» Infy — саме це дозволяє йому знаходити посилання next або prev на більшості сайтів. Алгоритм Infy спочатку намагається використати правило Selector або XPath, а потім переходить до аналізу всіх посилань сторінки за поширеними ключовими словами. Імовірно, вам не доведеться змінювати ці параметри, але за бажанням можна змінити типовий тип правила на Selector або XPath і додати додаткові ключові слова next/prev для улюблених сайтів. Якщо помилитеся, можна натиснути кнопку скидання параметрів у розділі «Про розширення»."
+  },
+  "next_label": {
+    "message": "Next"
+  },
+  "prev_label": {
+    "message": "Prev"
+  },
+  "selector_label": {
+    "message": "Selector"
+  },
+  "xpath_label": {
+    "message": "XPath"
+  },
+  "property_label": {
+    "message": "Властивість"
+  },
+  "property_tooltip": {
+    "message": "Це DOM-властивість елемента, наприклад href для посилань. Також можна вводити вкладені властивості, розділені крапками, тож можна вказати складні речі на кшталт parentNode.href, щоб звернутися до href батьківського вузла. Для атрибутів data-* на кшталт data-src можна ввести властивість як dataset.src"
+  },
+  "next_rule_label": {
+    "message": "Правило Next"
+  },
+  "prev_rule_label": {
+    "message": "Правило Prev"
+  },
+  "next_keywords_enabled_label": {
+    "message": "Шукати посилання за ключовими словами, якщо правило Next не спрацює"
+  },
+  "prev_keywords_enabled_label": {
+    "message": "Шукати посилання за ключовими словами, якщо правило Prev не спрацює"
+  },
+  "next_keywords_label": {
+    "message": "Ключові слова Next"
+  },
+  "prev_keywords_label": {
+    "message": "Ключові слова Prev"
+  },
+  "keywords_text_field_helper_line": {
+    "message": "Ключові слова впорядковані за пріоритетом, розділяються комами, пишуться нижнім регістром і не повинні містити пробілів"
+  },
+  "increment_decrement_settings_header": {
+    "message": "Параметри збільшення/зменшення"
+  },
+  "increment_decrement_settings_description": {
+    "message": "Infy використовує ту саму кодову базу, що й розширення URL Incrementer, тому ви отримуєте найкращий досвід збільшення URL! Водночас, імовірно, вам не доведеться змінювати ці параметри. Вони існують тому, що Infy спочатку проєктувався передусім для підтримки прокрутки через збільшення URL."
+  },
+  "selection_option_smart": {
+    "message": "Вибирати числа на кшталт «page=1» в URL"
+  },
+  "selection_option_lastnumber": {
+    "message": "Вибрати останнє число в URL"
+  },
+  "selection_option_firstnumber": {
+    "message": "Вибрати перше число в URL"
+  },
+  "selection_option_custom": {
+    "message": "Використовувати власний регулярний вираз"
+  },
+  "selection_custom_url_label": {
+    "message": "Тестовий рядок URL (обов'язково, зберігається)"
+  },
+  "selection_custom_regex_label": {
+    "message": "Регулярний вираз"
+  },
+  "selection_custom_flags_label": {
+    "message": "Прапорці"
+  },
+  "selection_custom_group_label": {
+    "message": "Група захоплення"
+  },
+  "selection_custom_index_label": {
+    "message": "Позиція індексу"
+  },
+  "selection_custom_group_index_help": {
+    "message": "Зазвичай 0"
+  },
+  "selection_custom_test_button_label": {
+    "message": "Тест"
+  },
+  "selection_custom_save_button_label": {
+    "message": "Зберегти"
+  },
+  "selection_custom_help_label": {
+    "message": "Для додаткового тестування й довідки використовуйте"
+  },
+  "selection_custom_match_error": {
+    "message": "Збіг не знайдено"
+  },
+  "selection_custom_group_error": {
+    "message": "Група має бути 0 або більше"
+  },
+  "selection_custom_index_error": {
+    "message": "Індекс має бути 0 або більше"
+  },
+  "selection_custom_matchgroup_error": {
+    "message": "Збіг знайдено, але не у вказаній групі"
+  },
+  "selection_custom_matchindex_error": {
+    "message": "Збіг знайдено, але не у вказаному індексі"
+  },
+  "selection_custom_matchnotvalid_error": {
+    "message": " не вдалося перевірити щодо виділення й поточної основи; спробуйте змінити індекс"
+  },
+  "selection_custom_test_success": {
+    "message": "Успішно"
+  },
+  "selection_custom_save_success": {
+    "message": "Збережено"
+  },
+  "leading_zeros_label": {
+    "message": "Провідні нулі"
+  },
+  "leading_zeros_pad_by_detection_label": {
+    "message": "Доповнювати за визначенням (рекомендовано)"
+  },
+  "shuffle_limit_label": {
+    "message": "Ліміт перемішування"
+  },
+  "shuffle_limit_tooltip": {
+    "message": "Ліміт перемішування впливає на діапазон URL, які ви бачитимете, коли ввімкнено перемішування. Наприклад, значення 100 означає, що якщо ви починаєте з page=1, наступні URL будуть лише в діапазоні 2–101. Збільшуйте або зменшуйте ліміт, щоб змінити діапазон."
+  },
+  "error_codes_404_label": {
+    "message": "404 Сторінку не знайдено"
+  },
+  "error_codes_3XX_label": {
+    "message": "3XX Перенаправлення"
+  },
+  "error_codes_4XX_label": {
+    "message": "4XX Помилки клієнта"
+  },
+  "error_codes_5XX_label": {
+    "message": "5XX Помилки сервера"
+  },
+  "error_codes_CUS_label": {
+    "message": "Власні коди HTTP-статусу"
+  },
+  "error_codes_EXC_label": {
+    "message": "Мережеві винятки"
+  },
+  "error_codes_custom_label": {
+    "message": "Коди"
+  },
+  "error_codes_custom_help": {
+    "message": "Приклад: 404, 302, 500"
+  },
+  "extra_settings_header": {
+    "message": "Додаткові параметри"
+  },
+  "extra_settings_description": {
+    "message": "Ці додаткові параметри, хоч і здаються неважливими, можуть суттєво змінити роботу Infy. Примітка: вони неінвазивні й діють лише на сторінках, де Infy активовано, тобто лише коли ви бачите, що Infy «УВІМК.»)."
+  },
+  "custom_scripts_enable_label": {
+    "message": "Увімкнути власні скрипти Infy (виправляє відсутні зображення на популярних сайтах, наприклад у Google Search)"
+  },
+  "scroll_lazy_load_enable_label": {
+    "message": "Автоматично намагатися виправляти lazy-loaded зображення (рекомендовано)"
+  },
+  "resize_media_enable_label": {
+    "message": "Змінювати розмір зображень і медіа, які більші за вікно (рекомендовано)"
+  },
+  "links_new_tab_enable_label": {
+    "message": "Відкривати посилання в новій вкладці під час натискання"
+  },
+  "custom_events_enable_label": {
+    "message": "Запускати власні JavaScript-події під час додавання або виконання інших дій; подробиці див. у довіднику"
+  },
+  "decode_uri_enable_label": {
+    "message": "Декодувати URL, щоб усі не-ASCII, тобто неанглійські, символи показувалися буквально, а не у відсотковому кодуванні"
+  },
+  "debug_enable_label": {
+    "message": "Увімкнути режим налагодження (зворотний зв'язок піктограми, підсвічування елементів next/prev)"
+  },
+  "about_header": {
+    "message": "Про розширення"
+  },
+  "version_span": {
+    "message": "Версія"
+  },
+  "version_name": {
+    "message": "Starry Night"
+  },
+  "version_tagline": {
+    "message": "Завжди вірте в себе"
+  },
+  "reset_options_button_label": {
+    "message": "Скинути параметри"
+  },
+  "reset_options_disclaimer": {
+    "message": "Не скидає збережені URL"
+  },
+  "reset_options_dialog_title": {
+    "message": "Скинути параметри?"
+  },
+  "reset_options_dialog_description": {
+    "message": "Ви впевнені, що хочете скинути параметри до типових значень? Це не скине збережені URL."
+  },
+  "reset_options_snackbar_label": {
+    "message": "Параметри успішно скинуто"
+  },
+  "thank_you_rainbow": {
+    "message": "Щиро дякуємо, що користуєтеся Infy Scroll"
+  },
+  "thank_you_wish": {
+    "message": "Infy любить прокручувати разом із вами й бажає вам Scrollful Day та Starry Night!"
+  },
+  "credits_label": {
+    "message": "Подяки та особлива вдячність"
+  },
+  "credits_you": {
+    "message": "... і найбільше вам за користування Infy"
+  }
+}
